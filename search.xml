@@ -4,7 +4,8 @@
     <title>Linux远程连接windows</title>
     <url>/2021/01/13/linux-windows/</url>
     <content><![CDATA[<p>最近有个项目，需要远程连接windows 10版本，执行命令并返回。刚开始想的用winexe去做，但是winexe只支持smbv1版本的协议，大部分windows 10已经是smbv2及更高。碰巧的是，闲逛github的时候居然找到一位<a href="https://github.com/jborean93/pypsexec">国外小哥</a>实现好的功能，这这这… 遂记录此文章。</p>
-<h2 id="安装pypsexec"><a href="#安装pypsexec" class="headerlink" title="安装pypsexec"></a>安装pypsexec</h2><p>联网的情况下直接用pip安装</p>
+<h2 id="安装pypsexec"><a href="#安装pypsexec" class="headerlink" title="安装pypsexec"></a>安装pypsexec</h2><a id="more"></a>
+<p>联网的情况下直接用pip安装</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install pypsexec</span><br></pre></td></tr></table></figure>
 <p>没网的小伙伴可依次下载pyspnego、smbprotocol、pypsexec，进入目录执行</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python setup.py install</span><br></pre></td></tr></table></figure>
