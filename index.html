@@ -191,6 +191,102 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://linkinyy.github.io/2021/01/16/incaseformat/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/me.png">
+      <meta itemprop="name" content="nancheng">
+      <meta itemprop="description" content="python开发 漏洞扫描">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nancheng' blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/01/16/incaseformat/" class="post-title-link" itemprop="url">突发！incaseformat蠕虫病毒来袭！！！</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-01-16 18:39:52 / 修改时间：19:33:20" itemprop="dateCreated datePublished" datetime="2021-01-16T18:39:52+08:00">2021-01-16</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%9C%A8%E9%A9%AC%E7%97%85%E6%AF%92/" itemprop="url" rel="index"><span itemprop="name">木马病毒</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2021/01/16/incaseformat/" class="post-meta-item leancloud_visitors" data-flag-title="突发！incaseformat蠕虫病毒来袭！！！" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>515</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>2021年1月13日，不断有客户反馈电脑被清除磁盘数据，涉及的范围有政府，医疗，教育等行业，一时间在各个群里传的沸沸扬扬。经过重重检查，最终锁定在了名为incaseformat的病毒身上。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/01/16/incaseformat/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://linkinyy.github.io/2021/01/13/linux-windows/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -214,10 +310,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-01-13 22:10:39 / 修改时间：23:41:03" itemprop="dateCreated datePublished" datetime="2021-01-13T22:10:39+08:00">2021-01-13</time>
+              <time title="创建时间：2021-01-13 22:10:39" itemprop="dateCreated datePublished" datetime="2021-01-13T22:10:39+08:00">2021-01-13</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-01-16 19:37:46" itemprop="dateModified" datetime="2021-01-16T19:37:46+08:00">2021-01-16</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -261,7 +363,6 @@
 
       
           <p>最近有个项目，需要远程连接windows 10版本，执行命令并返回。刚开始想的用winexe去做，但是winexe只支持smbv1版本的协议，大部分windows 10已经是smbv2及更高。碰巧的是，闲逛github的时候居然找到一位<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jborean93/pypsexec">国外小哥</a>实现好的功能，这这这… 遂记录此文章。</p>
-<h2 id="安装pypsexec"><a href="#安装pypsexec" class="headerlink" title="安装pypsexec"></a>安装pypsexec</h2>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2021/01/13/linux-windows/#more" rel="contents">
@@ -352,20 +453,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
