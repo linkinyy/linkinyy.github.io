@@ -8,7 +8,7 @@
 <p><img src="/images/incaseformat/1.incaseformat.png" alt="网传信息"></p>
 <h2 id="病毒来源"><a href="#病毒来源" class="headerlink" title="病毒来源"></a>病毒来源</h2><p>该病毒最初在09年左右开始出现，并通过U盘或共享文件夹等形式传播。<br><img src="/images/incaseformat/incaseformat%E5%87%BA%E7%8E%B0%E6%97%B6%E9%97%B4.png" alt="出现时间"><br><img src="/images/incaseformat/%E7%97%85%E6%AF%92%E6%A0%B7%E4%BE%8B.png" alt="病毒样例"></p>
 <h2 id="运行分析"><a href="#运行分析" class="headerlink" title="运行分析"></a>运行分析</h2><p>该病毒运行分两种情况，一种是在非Windows目录下执行时，不会对磁盘数据进行删除，它会将自身复制到Windows目录下，并创建RunOnce注册表开机启动。另外一种是在Windows目录下时，会将自身复制一份到同目录，并修改注册表中的数据将文件隐藏，随后<br>删除系统盘外的所有文件，在根目录留下一个incaseformat.log文件。<br><img src="/images/incaseformat/run.png" alt="运行分析1"><br><img src="/images/incaseformat/run1.png" alt="运行分析2"><br>为何病毒会在2021年1月13日运行？经过对该病毒逆向分析，原本是在2010年4月1日运行，但由程序中的日期转化与真实的主机日期不符合，导致时间转换为2021年1月13日。所以导致13日当天出现的大面积删除事件。<br><img src="/images/incaseformat/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.png" alt="运行时间"></p>
-<h2 id="补救措施"><a href="#补救措施" class="headerlink" title="补救措施"></a>补救措施</h2><p>被删除文件后，千万别对被删数据磁盘进行写操作，因为数据被删除后没有真正的删除，只是把那个区域标志为闲置区域，但是数据在的。<br>可找数据恢复专业人员进行补救，若自己了解数据恢复相关操作，也可以自己用软件进行恢复。</p>
+<h2 id="补救措施"><a href="#补救措施" class="headerlink" title="补救措施"></a>补救措施</h2><p>被删除文件后，千万别对被删数据磁盘进行写操作，因为数据被删除后没有真正的删除，只是把那个区域标志为闲置区域，但是数据还是在的。可找数据恢复专业人员进行补救，若自己了解数据恢复相关操作，也可以自己用软件进行恢复。</p>
 ]]></content>
       <categories>
         <category>木马病毒</category>
